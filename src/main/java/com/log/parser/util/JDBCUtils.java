@@ -1,4 +1,4 @@
-package com.log.parser.service;
+package com.log.parser.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

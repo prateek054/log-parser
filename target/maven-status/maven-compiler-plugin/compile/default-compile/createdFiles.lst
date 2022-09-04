@@ -1,3 +1,7 @@
-com\log\parser\service\JDBCUtils.class
+com\log\parser\repo\HSQLDBCreate.class
+com\log\parser\model\Event.class
+com\log\parser\repo\HSQLDBInsert.class
 com\log\parser\service\Parser.class
-com\log\parser\service\HSQLDBInsertExample.class
+com\log\parser\util\JDBCUtils.class
+com\log\parser\model\LogEntry.class
+com\log\parser\model\STATE.class

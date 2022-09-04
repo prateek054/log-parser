@@ -1,0 +1,30 @@
+2022-09-04 11:44:18.438 [main] INFO  com.log.parser.service.Parser - Parsing the file started
+2022-09-04 11:44:18.440 [main] INFO  com.log.parser.service.Parser - Reading from file: D:/dev/logfile.txt
+2022-09-04 11:44:18.443 [main] INFO  com.log.parser.service.Parser - Creating the event table, will throw Exception if already exists
+2022-09-04 11:44:18.443 [main] INFO  com.log.parser.repo.HSQLDBCreate - CREATE TABLE EVENT (id  varchar(20) NOT NULL,  duration INT, type varchar(20), host varchar(10),  alert varchar(10) , PRIMARY KEY (id));
+2022-09-04 11:44:18.601 [main] ERROR com.log.parser.repo.HSQLDBCreate - Error in creating table: object name already exists: EVENT in statement [CREATE TABLE EVENT (id  varchar(20) NOT NULL,  duration INT, type varchar(20), host varchar(10),  alert varchar(10) , PRIMARY KEY (id))]
+2022-09-04 11:44:18.609 [main] INFO  com.log.parser.service.Parser - Entry from file: LogEntry [id=duewdeu, state=ENDED, type=null, host=null, timestamp=56217357218318]
+2022-09-04 11:44:18.610 [main] INFO  com.log.parser.service.Parser - Entry from file: LogEntry [id=duewdwdeu, state=STARTED, type=APP_LOG, host=12345, timestamp=578617357218312]
+2022-09-04 11:44:18.610 [main] INFO  com.log.parser.service.Parser - Entry from file: LogEntry [id=duewdeu, state=STARTED, type=null, host=null, timestamp=56217357218312]
+2022-09-04 11:44:18.612 [main] INFO  com.log.parser.service.Parser - Event created from file: Event [eventId=duewdeu, type=null, host=null, duration=6, alert=true]
+2022-09-04 11:44:18.725 [main] ERROR com.log.parser.repo.HSQLDBInsert - Error while inserting event in db: integrity constraint violation: unique constraint or index violation ; SYS_PK_10105 table: EVENT
+2022-09-04 11:44:18.729 [main] INFO  com.log.parser.repo.HSQLDBInsert - Event inserted successfully in db :Event [eventId=duewdeu, type=null, host=null, duration=6, alert=true]
+2022-09-04 11:44:18.730 [main] INFO  com.log.parser.service.Parser - Entry from file: LogEntry [id=duewdwdeu, state=ENDED, type=APP_LOG, host=12345, timestamp=578617357218314]
+2022-09-04 11:44:18.730 [main] INFO  com.log.parser.service.Parser - Event created from file: Event [eventId=duewdwdeu, type=APP_LOG, host=12345, duration=2, alert=false]
+2022-09-04 11:44:18.846 [main] ERROR com.log.parser.repo.HSQLDBInsert - Error while inserting event in db: integrity constraint violation: unique constraint or index violation ; SYS_PK_10105 table: EVENT
+2022-09-04 11:44:18.850 [main] INFO  com.log.parser.repo.HSQLDBInsert - Event inserted successfully in db :Event [eventId=duewdwdeu, type=APP_LOG, host=12345, duration=2, alert=false]
+2022-09-04 11:44:18.851 [main] INFO  com.log.parser.service.Parser - Parsing the file completed successfully
+2022-09-04 11:44:38.310 [main] INFO  com.log.parser.service.Parser - Parsing the file started
+2022-09-04 11:44:38.313 [main] INFO  com.log.parser.service.Parser - Reading from file: D:/dev/logfile.txt
+2022-09-04 11:44:38.315 [main] INFO  com.log.parser.service.Parser - Creating the event table, will throw Exception if already exists
+2022-09-04 11:44:38.315 [main] INFO  com.log.parser.repo.HSQLDBCreate - CREATE TABLE EVENT (id  varchar(20) NOT NULL,  duration INT, type varchar(20), host varchar(10),  alert varchar(10) , PRIMARY KEY (id));
+2022-09-04 11:44:38.475 [main] ERROR com.log.parser.repo.HSQLDBCreate - Error in creating table: object name already exists: EVENT in statement [CREATE TABLE EVENT (id  varchar(20) NOT NULL,  duration INT, type varchar(20), host varchar(10),  alert varchar(10) , PRIMARY KEY (id))]
+2022-09-04 11:44:38.485 [main] INFO  com.log.parser.service.Parser - Entry from file: LogEntry [id=duewdeu, state=ENDED, type=null, host=null, timestamp=56217357218318]
+2022-09-04 11:44:38.485 [main] INFO  com.log.parser.service.Parser - Entry from file: LogEntry [id=duewdwdeu, state=STARTED, type=APP_LOG, host=12345, timestamp=578617357218312]
+2022-09-04 11:44:38.486 [main] INFO  com.log.parser.service.Parser - Entry from file: LogEntry [id=duewdeu, state=STARTED, type=null, host=null, timestamp=56217357218312]
+2022-09-04 11:44:38.487 [main] INFO  com.log.parser.service.Parser - Event created from file: Event [eventId=duewdeu, type=null, host=null, duration=6, alert=true]
+2022-09-04 11:44:38.600 [main] INFO  com.log.parser.repo.HSQLDBInsert - Event inserted successfully in db :Event [eventId=duewdeu, type=null, host=null, duration=6, alert=true]
+2022-09-04 11:44:38.604 [main] INFO  com.log.parser.service.Parser - Entry from file: LogEntry [id=duewdwdeu, state=ENDED, type=APP_LOG, host=12345, timestamp=578617357218314]
+2022-09-04 11:44:38.604 [main] INFO  com.log.parser.service.Parser - Event created from file: Event [eventId=duewdwdeu, type=APP_LOG, host=12345, duration=2, alert=false]
+2022-09-04 11:44:38.723 [main] INFO  com.log.parser.repo.HSQLDBInsert - Event inserted successfully in db :Event [eventId=duewdwdeu, type=APP_LOG, host=12345, duration=2, alert=false]
+2022-09-04 11:44:38.727 [main] INFO  com.log.parser.service.Parser - Parsing the file completed successfully

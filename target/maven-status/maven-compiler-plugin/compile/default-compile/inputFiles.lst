@@ -1,3 +1,7 @@
-D:\dev\LogParser\src\main\java\com\log\parser\service\HSQLDBInsertExample.java
+D:\dev\LogParser\src\main\java\com\log\parser\model\STATE.java
+D:\dev\LogParser\src\main\java\com\log\parser\repo\HSQLDBCreate.java
+D:\dev\LogParser\src\main\java\com\log\parser\util\JDBCUtils.java
 D:\dev\LogParser\src\main\java\com\log\parser\service\Parser.java
-D:\dev\LogParser\src\main\java\com\log\parser\service\JDBCUtils.java
+D:\dev\LogParser\src\main\java\com\log\parser\model\LogEntry.java
+D:\dev\LogParser\src\main\java\com\log\parser\model\Event.java
+D:\dev\LogParser\src\main\java\com\log\parser\repo\HSQLDBInsert.java
